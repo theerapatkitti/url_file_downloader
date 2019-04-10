@@ -1,0 +1,12 @@
+# Tell size of chunk to save for file downloaded
+chunk_size: 8192
+# Sleep time for worker to wait for next task
+wait_task: 3
+# Number of retry attempt after failed download
+max_retry: 3
+# Timeout for attempting connection
+timeout: 10
+# Time to wait before next attempt
+wait_retry: 5
+# Number of workers to use
+max_worker: 5
